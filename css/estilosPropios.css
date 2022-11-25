@@ -61,6 +61,18 @@
   .contact .info .email p {
     padding-top: 5px; }
 
+.contact .info .email:hover i {
+  background: #47b2e4;
+  color: #fff; }
+
+.contact .info .address:hover i {
+  background: #47b2e4;
+  color: #fff; }
+
+.contact .info .phone:hover i {
+  background: #47b2e4;
+  color: #fff; }
+
 .contact .php-email-form {
   width: 100%;
   border-top: 3px solid #47b2e4;
@@ -94,11 +106,12 @@ nav {
   nav nav ul li {
     float: left;
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 20px; }
     nav nav ul li a {
       color: white;
       font-weight: bold;
+      font-size: 100px;
       text-decoration: none;
       padding: 18px; }
     nav nav ul li :hover {
