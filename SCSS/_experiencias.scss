@@ -26,12 +26,14 @@
     border-radius: 10px 0;
     transition: 0.5s;
 
-    a h3 {
-        &:hover {
+    a {
+        h3 {
+            font-size: 1.4em;
+        }
+
+        :hover {
             transition: ease-in-out 0.5s;
             transform: scale(1.2);
         }
-
-        font-size: 1.4em;
     }
 }
